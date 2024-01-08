@@ -26,7 +26,7 @@ export default function Home() {
             name="text"
             placeholder="type anything to translate to Hindi"
             className="p-2 mb-4 border border-gray-300 rounded-md"
-            rows="5"
+            rows={5}
           />
           <SubmitButton />
           {state && (
