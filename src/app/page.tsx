@@ -31,7 +31,7 @@ export default function Home() {
           <SubmitButton />
           {state && (
             <div className="p-2 pt-4 text-green-600 rounded-md">
-              Successfully called Webhook!!
+              Successfully triggered Webhook!!
             </div>
           )}
         </form>
